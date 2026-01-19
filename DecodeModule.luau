@@ -52,9 +52,9 @@ Decoder.HtmlEnts = {
 }
 
 Decoder.ZwChars = {
-	["\u200b"]=true,["\u200c"]=true,["\u200d"]=true,["\u200e"]=true,["\u200f"]=true,["\u2060"]=true,
-	["\u2062"]=true,["\u2063"]=true,["\u2064"]=true,["\ufeff"]=true,["\u202a"]=true,["\u202b"]=true,
-	["\u202c"]=true,["\u202d"]=true,["\u202e"]=true,["\u2066"]=true,["\u2067"]=true,["\u2068"]=true,["\u2069"]=true
+	["\u{200b}"]=true,["\u{200c}"]=true,["\u{200d}"]=true,["\u{200e}"]=true,["\u{200f}"]=true,["\u{2060}"]=true,
+	["\u{2062}"]=true,["\u{2063}"]=true,["\u{2064}"]=true,["\u{feff}"]=true,["\u{202a}"]=true,["\u{202b}"]=true,
+	["\u{202c}"]=true,["\u{202d}"]=true,["\u{202e}"]=true,["\u{2066}"]=true,["\u{2067}"]=true,["\u{2068}"]=true,["\u{2069}"]=true
 }
 
 function Decoder.Base64(Txt: string): string?
